@@ -1,9 +1,13 @@
 {
   "author": "Jacob Hoffman-Andrews",
   "name": "blocktogether",
-  "description": "Share your blocks",
-  "repository": "https://github.com/jsha/blocktogether.git",
+  "description": "Follow Eachother",
+  "repository": "https://github.com/harrounmoussa/blocktogether.git",
   "version": "1.5.7",
+  "scripts": {
+          "start": "node ./node_modules/nodemon/bin/nodemon.js -w . -e js,mustache,html,css blocktogether.js"
+  },
+  "main": "server.js",
   "dependencies": {
     "body-parser": "~1.6.2",
     "cookie-session": "~1.0.2",
@@ -24,3 +28,4 @@
     "yakaa": "~1.0.1"
   }
 }
+
